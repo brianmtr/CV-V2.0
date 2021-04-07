@@ -1,0 +1,36 @@
+#category4 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.inside4 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content {
+    text-align: center;
+}
+h2 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.cursus_content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+.cursus_content img {
+    width: 30%;
+}
+@media screen and (max-width: 850px) {
+    h2 {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .cursus_content img {
+        width: 25%;
+    }
+}
